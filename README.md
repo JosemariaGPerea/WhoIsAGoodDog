@@ -7,3 +7,5 @@ Gracias por el curso
 
 
 nota: para crear usuario admin, crear usuario, una vez creado en consola usar tinker para hacer ese usuario en rol admin
+Comando para hacer todos los usuarios admin en tinker, solo para probar el sistema
+\App\Models\User::query()->update(['is_admin' => true]);
